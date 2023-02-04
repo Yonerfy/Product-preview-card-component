@@ -40,5 +40,3 @@ Users should be able to:
 - CSS custom properties
 - Mobile-first workflow
 - [Bootstrap](https://getbootstrap.com/)
-
--
