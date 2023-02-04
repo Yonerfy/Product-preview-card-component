@@ -57,14 +57,22 @@ svg {
   height: 450px;
 }
 
-.custom-with-height {
-  width: 800px;
-  height: 450px;
-}
 .custom-bg {
   background-image: url(images/image-product-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 450px;
+}
+
+@media (max-width: 760px) {
+  .custom-bg {
+    background-position: center;
+    height: 262px;
+  }
+
+  .custom-card-with {
+    height: 373px !important;
+  }
 }
 
 .custom-special-title {
@@ -91,12 +99,10 @@ svg {
   margin-right: auto;
   margin-left: auto;
   text-align: start;
+  height: 450px;
 }
 
 .container {
   padding: 200px;
   height: 100vh;
 }
-
-/* font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif; */
